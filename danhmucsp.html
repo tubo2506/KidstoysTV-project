@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,">
+    <title>KidstoysTVshop</title>
+    <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.ico">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/assets/main.css"/>
+    <link rel="stylesheet" href="/assets/responsive.css"/>
+</head>
+<body>
+    <div id="main">
+        <!-- header đầu tiên nè -->
+        <div id="subheader">
+                <ul class="dcsdt">
+                    <li><a href="https://www.google.com/maps/dir//KidsToysTV,+249+%C4%90.+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o,+Ph%C6%B0%E1%BB%9Dng+C%C3%B4+Giang,+Qu%E1%BA%ADn+1,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh+740369/@10.7648012,106.693082,15z/data=!4m16!1m6!3m5!1s0x0:0x8dcf6fadb9c36b24!2sKidsToysTV!8m2!3d10.7648012!4d106.693082!4m8!1m0!1m5!1m1!1s0x31752fde63f7f5cf:0x8dcf6fadb9c36b24!2m2!1d106.693082!2d10.7648012!3e3" target="_blank">
+                        <i class='bx bx-map bx-tada' style='color:red;font-size: 20px;'  ></i><b> Địa chỉ</b>: 249 Trần Hưng Đạo, phường Cô Giang, Quận 1, thành phố Hồ Chí Minh
+                    </a></li>
+                    <li><a href="">
+                        <i class='bx bxs-phone-call bx-tada' style='color:red;font-size: 20px;' ></i><b> Hotline</b>: 0356 100 280
+                    </a></li>
+                </ul>
+        </div>
+        <!-- Header chính nè -->
+        <div id="header">
+            <div class="header-start">
+                <a class="logo" href="#"><img src="/assets/imgs/logo.png" alt=""></a>
+                <div class="search">
+                    <button><i class='bx bx-search' ></i></button>
+                    <form class="search__form" action="search" >
+                        <input type="text" class="search-box"
+                        placeholder=" Ba mẹ cần tìm gì cho bé?"
+                        >
+                        <div class="search__history">
+                            <p>Lịch sử tìm kiếm của ba mẹ trống</p>
+                            <ul class="search__sgt">
+                                <li><a href="">Búp bê</a></li>
+                                <li><a href="">Robot</a></li>
+                                <li><a href="">Máy bay</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="header-end">
+                <div class="sublh-cont">
+                    <div class="sublh-container">
+                        <div class="sublh facebook"><a href=""><i class='bx bxl-facebook-circle' style='color:#040404;'></i></a></div>
+                        <div class="sublh"><a href=""><i class='bx bxl-instagram-alt' style='color:#040404;'></i></a></div>
+                        <div class="sublh"><a href=""><i class='bx bxl-tiktok' style='color:#040404;'></i></a></div>
+                        <div class="sublh"><a href=""><i class='bx bxl-youtube' style='color:#040404;' ></i></a></div>
+                    </div>
+                </div>
+                <div class="headerend-container">
+                    <a class="headerend-list header__cart" href="" title="Giỏ hàng"><i class='bx bxs-cart-alt' style='color:#040404;'>
+                        <div class="header__cart-noti">
+                            <h6 class="header__cart-noti-title">Giỏ hàng của ba mẹ</h6>
+                            <div class="header__cart-noti-content">Giỏ hàng của ba mẹ trống trơn!</div>
+                        </div>
+                    </i></a>
+                    <div class="header__acc">
+                        <a class="headerend-list " href="" title="Tài khoản"><i class='bx bxs-user-circle' style='color:#040404;'> 
+                        </i></a>
+                        <div class="header__acc-container">
+                            <ul class="header__acc-list">
+                                <li class="header__acc-li"><a href="">Đăng nhập</a></li>
+                                <li class="header__acc-li"><a href="">Đăng ký</a></li>
+                            </ul>
+                        </div>  
+
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <li class="aboutwe"><a class="menu" href="#">Về chúng tôi </a></li>
+            <li class="danhmuckm"><a class="menu" href="#">Khuyến mãi </a></li>
+            <li class="danhmucmoi"><a class="menu" href="#dochoimoi">Đồ chơi mới</a></li>
+            <li class="danhmucgt"><a class="menu" href="#"></i>Giới tính </a>
+            </li>
+            <li class="danhmucdt"><a class="menu" href="#">Độ Tuổi </a>
+            </li>
+            <li class="danhmuc danhmucdochoi"><a class="menu" href="#">Danh mục đồ chơi</a>
+                <div class="danhmucdochoi">
+                    <ul class="danhmucdochoi_list dmlist">
+                        <li><a class="menusub" href="" title="Đồ chơi Búp bê">Búp bê</a></li>
+                        <li><a class="menusub" href="" title="Đồ chơi Kỹ thuật">Kỹ thuật</a></li>
+                        <li><a class="menusub" href="" title="Đồ chơi Lắp ráp">Láp ráp</a></li>
+                        <li><a class="menusub" href="" title="Đồ chơi Mô hình">Mô hình</a></li>
+                        <li><a class="menusub" href="" title="Đồ chơi Mô phỏng">Mô phỏng</a></li>
+                        <li><a class="menusub" href="" title="Đồ chơi ôtô">Ô tô</a></li>
+                        <li><a class="menusub" href="" title="Đồ chơi robot">Robot</a></li>
+                    </ul>
+                </div>
+            </li>
+        </div>
+        <div class="breadcrumd__container"></div>
+
+        <div class="menudt">
+            .
+        </div>
+        <div id="content danhmucdochoi">
+            <div class="sidebar">
+            <div class="sidebar__tiltle"><h3>Chọn đồ chơi theo:</h3></div>
+            <div class="sidebar__filter">
+                <div class="sidebar__filter-dimension sidebar__filter-price">
+                    <label for="">Giá(nghìn vnđ):</label>
+                    <input type="range" list="tickmarks" min="0" max="5">
+                    <svg role="presentation" width="100%" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="range__tick" x="0%" y="3" width="1" height="10"></rect>
+                        <rect class="range__tick" x="20%" y="3" width="1" height="10"></rect>
+                        <rect class="range__tick" x="40%" y="3" width="1" height="10"></rect>
+                        <rect class="range__tick" x="60%" y="3" width="1" height="10"></rect>
+                        <rect class="range__tick" x="80%" y="3" width="1" height="10"></rect>
+                        <rect class="range__tick" x="100%" y="3" width="1" height="10"></rect>
+                     </svg>
+                     <svg role="presentation" width="100%" height="14" xmlns="http://www.w3.org/2000/svg">
+                        <text class="range__point" x="0%" y="14" text-anchor="start">0</text>
+                        <text class="range__point" x="20%" y="14" text-anchor="middle">100</text>
+                        <text class="range__point" x="40%" y="14" text-anchor="middle">300</text>
+                        <text class="range__point" x="60%" y="14" text-anchor="middle">500</text>
+                        <text class="range__point" x="80%" y="14" text-anchor="middle">700</text>
+                        <text class="range__point" x="100%" y="14" text-anchor="end">900</text>
+                     </svg>
+                </div>
+                <div class="sidebar__filter-dimension sidebar__filter-age">
+                    <label for="">Độ tuổi:</label><br>
+                    <input type="checkbox" name="Dưới 10 tháng" id="10month" value="Dưới 10 tháng">
+                    <label for="10month">Dưới 10 tháng</label>
+                    <br>
+                    <input type="checkbox" name="11-18 tháng" id="11-18month" value="11-18 tháng">
+                    <label for="11-18month">11-18 tháng</label>
+                    <br>
+                    <input type="checkbox" name="18 tháng-3 tuổi" id="3year" value="18 tháng-3 tuổi">
+                    <label for="3year">18 tháng-3 tuổi</label>
+                    <br>
+                    <input type="checkbox" name="4-5 tuổi" id="4-5year" value="4-5 tuổi">
+                    <label for="4-5year">4-5 tuổi</label>
+                    <br>
+                    <input type="checkbox" name="trên 5 tuổi" id="5year" value="trên 5 tuổi">
+                    <label for="5year">trên 5 tuổi</label>                 
+                </div>
+                <div class="sidebar__filter-dimension sidebar__filter-age">
+                    <label for="">Giới tính:</label><br>
+                    <input type="checkbox" name="Bé Trai" id="betrai" value="Bé trai">
+                    <label for="betrai">Bé trai</label>
+                    <br>
+                    <input type="checkbox" name="bé Gái" id="begai" value="Bé Gái">
+                    <label for="begai">Bé Gái</label>              
+                </div>
+            </div>
+            </div>
+
+            <div class="content__danhmucdochoi">
+                <div class="danhmucdochoi__list">
+                    <div class="card_sp danhmucdochoi__card-sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="danhmucdochoi__list">
+                    <div class="card_sp danhmucdochoi__card-sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="danhmucdochoi__list">
+                    <div class="card_sp danhmucdochoi__card-sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="danhmucdochoi__list">
+                    <div class="card_sp danhmucdochoi__card-sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://vn-live.slatic.net/p/8cd58cbf18ead2f58ebe19744cf41027.jpg" alt=""></div>
+                        <div class="card_title">combo 3 vòng Đồ chơi  lò xo ảo thuậ</div>
+                        <div class="card_price">26.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">50.000 ₫</div>
+                            <div class="discount_per">50%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="danhmucdochoi__list">
+                    <div class="card_sp danhmucdochoi__card-sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="danhmucdochoi__list">
+                    <div class="card_sp danhmucdochoi__card-sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="danhmucdochoi__list">
+                    <div class="card_sp danhmucdochoi__card-sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="danhmucdochoi__list">
+                    <div class="card_sp danhmucdochoi__card-sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="danhmucdochoi__list">
+                    <div class="card_sp danhmucdochoi__card-sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                    <div class="card_sp">
+                        <button class="card_heart"><i class='bx bxs-heart bx-flip-horizontal bx-tada' style='color:#F02D3A;' ></i></button>
+                        <button class="card_cart"><i class='bx bx-cart-add' style='color:#ff0000;' ></i></button>
+                        <div class="card_img"><img src="https://sg-live-01.slatic.net/p/c8980399cce38240f2cf19648663b986.jpg" alt=""></div>
+                        <div class="card_title">Spinner Robot biến hình thông minh</div>
+                        <div class="card_price">110.000 ₫</div>
+                        <div class="card_discount">
+                            <div class="discount_price">160.000 ₫</div>
+                            <div class="discount_per">30%</div>
+                        </div>
+                        <!-- <div class="card_buy">
+                            <button class="buy">Mua ngay</button>
+                            <button class="add">Thêm vào giỏ</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="khuyenmai">
+                <div class="footertitle">Đăng ký thông tin để nhận khuyến mãi</div>
+                <form action="">
+                    <i class='bx bx-envelope'></i> <input class="nhapemail" type="text" placeholder="Ba mẹ điền email để nhận khuyễn mãi nhé...">
+                </form>
+            </div>
+            <div class="dieukhoan">
+            <ul class="footertitle">Điều khoản và chính sách</ul>
+                    <Li><a href="">Chính sách giao hàng hàng</a></Li>
+                    <Li><a href="">Chính sách khuyễn mãi</a></Li>
+                    <Li><a href="">Chính sách điều khoản</a></Li>
+            </div>
+            <div class="hotrokh">
+                <ul class="footertitle">Hỗ trợ khách hàng</ul>
+                <li><a href="">Chính sách bảo mật</a></li>
+                <li><a href="">Chính sách bảo hành và đổi trả hàng</a></li>
+                <li><a href="">Chính sách thanh toán</a></li>
+            </div>
+            <div class="thongtincuahang">
+                <ul class="footertitle">Thông tin khách hàng</ul>
+                <li><b>Các tùy chọn dịch vụ</b>: Mua sắm qua web hoặc tại cửa hàng · Nhận tại cửa hàng</a></li>
+                <li><b>Địa chỉ</b>: 249 Đ. Trần Hưng Đạo, Phường Cô Giang, Quận 1, Thành phố Hồ Chí Minh</a></li>
+                <li><b>Các giờ hoạt động</b>: trước 0:00pm
+                    </a></li>
+                <li><b>Điện thoại</b>: 0356 100 280</a></li>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+<script src="/assets/app.js"></script>
+</html>
