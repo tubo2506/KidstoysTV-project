@@ -1,0 +1,439 @@
+
+@media(min-width:1365px) {
+        #main {
+            max-width: 1365px;
+        }
+}
+@media screen and (max-width: 1200px) {
+    #subheader,#header,#menu{
+        padding: 0;
+    }
+    #content .event {
+        max-width: 100%;
+        height: 400px;
+        margin-top:30px;
+        display: grid;
+        grid-row-gap: 20px;
+    }
+    .event >div > img {
+        max-width: 600px;
+    }
+    #footer{
+        position: relative;top: 270px;
+    }
+    .list_cart {
+        padding: 0;
+    }
+    #content .listsp {
+        width: 100%;
+        height: 1000px;
+    }
+    #content .listsp .container_cart .list_cart{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 120px 0;
+    }
+    #content .listsp .container_cart .list_cart > div{
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width: 1111px) and (max-width: 1200px){
+
+    .card_sp{
+        width: 500px;
+    }
+    .card_sp .card_img img {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 50px;
+        left: 15px;
+    }
+    .card_sp .card_title {
+        position: absolute;
+        top: 50px;
+        left: 279px;
+        font-size: larger;
+    }
+    .card_sp .card_price {
+        position: absolute;
+        top: 150px;
+        left: 298px;
+        font-size: xx-large;
+    }
+    .card_sp .card_discount {
+        position: absolute;
+        top: 200px;
+        left: 300px;
+        font-size: 20px;
+        display: flex;
+        color: #4e4e4e;
+    }
+}
+
+@media screen and (max-width:1110px) {
+        #content{
+            position: relative;top: 80px;
+        }
+        #footer {
+            height: 450px;
+            position: relative;
+            top: 130px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 10px 10px;
+        }
+        .khuyenmai{
+            grid-row: 1/2;
+            grid-column: 1/5;
+        }
+        .dieukhoan {
+            grid-row: 2/3;
+            grid-column: 2/3;
+            padding-left: 0;
+        }
+        .hotrokh{
+            grid-row: 2/3;
+            grid-column: 3/5;
+        }
+        .thongtincuahang{
+            grid-row: 3/4;
+            grid-column: 2/4;
+            width: 625px;
+        }
+        .aboutwe,.promotion {
+            display: none;
+        }
+        .account_container {
+            height: fit-content;
+        }
+        .account_container .signin_container{
+            height: fit-content;
+            flex-direction: column;
+            align-items: center;
+        }
+ 
+    
+    }
+
+@media screen and (max-width:770px){
+        body {
+            margin-right: -10px;
+        }
+        #subheader{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 0  5px;
+        }
+        .dcsdt{
+        flex-direction: column;
+        font-size: 20px;
+        text-align: center;
+        }
+        #header{
+        height: 200px;
+        flex-direction: column;
+        }
+        .header-start{
+            padding: 0 5px;
+            width: 100%;
+        }
+        .logo img{
+        width: fit-content;
+        height: 50px;
+        }
+        .search{
+        width: 100%;
+        height: 50px;
+        }
+        .bx-search{
+            font-size: 40px;
+        }
+        .search__form{
+            width: 100%;
+        }
+        .search-box{
+        align-self: flex-end;
+        width: auto;
+        height: auto;
+        line-height: 50px;
+        font-size: 20px;
+        }
+        .search-box:focus ~ .search__history{
+            display: none;
+        }
+        .header-end{
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+            padding: 0 5px;
+        }
+        .sublh a i{
+            font-size: 40px;
+            transform: none;
+            animation: iconFadeIn 1s;
+        }
+        .headerend-container,.sublh-cont,.sublh-container{
+            width: fit-content;
+            height: fit-content;
+        }
+        .bxs-cart-alt{
+            font-size: 50px;
+        }
+        .bxs-user-circle{
+            display: none;
+        }
+        .header__acc{
+            width: fit-content;
+        }
+        .header__acc-container,.header__acc-list{
+            width: fit-content;
+        }
+        .header__acc-li{
+            font-size: 20px;
+        }
+        .sublh-cont{
+            display: none;
+            margin-left: 150px;
+        }
+        .sublh-cont.show{
+            display: block;
+        }
+        #menu{
+            width: 100%;
+            height: 400px;
+            font-size: 24px;
+            flex-direction: column-reverse;
+            display: none;
+            position: sticky; top: 200px;
+            z-index: 1;
+            animation: easeIn 0.5s
+        }
+        #menu.show{
+            display: flex;
+        }
+        .menu-phone{
+            display: block;
+            cursor: pointer;
+        }
+        .bx-menu{
+            font-size: 50px;
+        }
+        .logo{
+            padding-left: 0;
+        }
+        .danhmucdt,.danhmuc{
+            width: 100%;
+            flex-direction: column;
+        }
+        .danhmucdotuoi{
+            width: 100%;
+        }
+        .dmlist{
+            width: 100%;
+            justify-content: space-between;
+        }
+        #menu .danhmucdochoi,#menu .danhmucdochoi_list{
+            width: 100%;
+        }
+        .danhmucdochoi_list{
+            width: 100%;
+            justify-content: space-between;
+        }
+        #menu .danhmucdt:hover .danhmucdotuoi{
+            width: 100%;
+        }
+        #menu .danhmucgt:hover .danhmucgioitinh{
+            width: 100%;
+        }
+        #menu .danhmuc:hover .danhmucdochoi{
+            width: 100%;
+        }
+        #menu .danhmucgt:hover .danhmucgioitinh{
+            transform: translateX(0px);
+        }
+        #menu .danhmuc:hover .danhmucdochoi_list{
+            transform: translateX(0px);
+        }
+        .danhmucdotuoi_list,.danhmucdochoi_list{
+            transform: translateX(-1400px);
+        }
+        #menu .danhmucgt:hover .danhmucgioitinh{
+            width: 100%;
+        }
+        #menu .danhmucgt:hover .danhmucgioitinh_list{
+            transform: translateX(0px);
+        }
+        .danhmucgioitinh{
+            width: 100%;
+            flex-direction: column;
+        }
+        .danhmucgt{
+            flex-direction: column;
+            width: 100%;
+        }
+        .danhmucgioitinh_list{
+            justify-content: space-around;
+            transform: translateX(-1400px);
+        }
+        .menusub{
+            font-size: 20px;
+            border: 2px solid;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        #content{
+            position: relative;top: 0px;
+        }
+
+        #footer {
+            height: 600px;
+            position: relative;
+            top: 130px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 10px 10px;
+            font-size: 20px;
+        }
+        .khuyenmai{
+            grid-row: 1/2;
+            grid-column: 1/5;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        .nhapemail{
+            font-size: 20px;
+            width: fit-content;
+        }
+        .khuyenmai form{
+            width: 380px;
+        }
+        .dieukhoan {
+            width: 100%;
+            grid-row: 2/3;
+            grid-column: 2/4;
+            padding-left: 0;
+            text-align: center;
+        }
+        .hotrokh{
+            width: 100%;
+            grid-row: 3/4;
+            grid-column: 2/4;
+            text-align: center;
+        }
+        .thongtincuahang{
+            grid-row: 4/5;
+            grid-column: 1/5;
+            width: 625px;
+            text-align: center;
+            width: 100%;
+            padding: 0;
+        }
+        .aboutwe,.promotion {
+            display: none;
+        }
+        #content{
+            position: relative;top: 0px;
+        }
+        #content .listsp {
+            width: 100%;
+            height: 2000px;
+        }
+        #content .listsp .container_cart .list_cart{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 120px 0;
+        }
+        .container_cart{
+            width: 100%;
+            align-items: center;
+        }
+        #content .danhmucsp{
+        width: 100%;
+        height: 1200px;
+        }
+        .danhmucsp_list {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+        }
+        #content .listsp .container_cart .list_cart{
+            width: fit-content;
+        }
+        #content .event {
+            display: none;
+        }
+        .signin_container .signin_tab {
+            width: 100%;
+        }
+        .signin_tab .signin_content {
+            height: 390px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .signin_content .signin{
+            width: 300px;
+        }
+    }
+@media  (max-width:440px){
+    #main{
+        overflow: hidden;
+    }
+    .search{
+        overflow: hidden;
+    }
+    .khuyenmai form{
+        width: fit-content;
+        overflow: hidden;
+    }
+    .header__acc-list.show{
+        display: none;
+    }
+    .header__cart.show{
+        display: none;
+    }
+    .sublh-cont{
+        margin: 0;
+    }
+    .menusub {
+        font-size: 15px;
+    }
+    .listsp .titlesp h2, a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+}
+@keyframes easeIn{
+    from{
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes iconFadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
