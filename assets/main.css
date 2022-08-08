@@ -12,14 +12,14 @@
     padding: 0;
     /* box-sizing: border-box; */
     font-family: Roboto;
-    background-image: url(/assets/backgr-img/bodybg.png);
+    background-image: url(./assets/backgr-img/bodybg.png);
     object-fit: contain;
 }
 
 /* Subheader nè//////////////////////////////////////// */
     #subheader {
         padding: 0 65px;
-        background-image: url(/assets/backgr-img/haederbg.png);
+        background-image: url(./assets/backgr-img/haederbg.png);
     }
     .dcsdt {
         width: 100%;
@@ -49,7 +49,7 @@
 #header {
          width: 100%;
          height: 50px;
-         background-image: url(/assets/backgr-img/haederbg.png);
+         background-image: url(./assets/backgr-img/haederbg.png);
          position: sticky; top: 0%; left: 0; right: 0px;
          z-index: 2;
          box-shadow: 0,0,3, rgba(0, 0, 0, 0.3);
@@ -233,7 +233,7 @@
             right: 5px;
             width: 300px;
             height: 200px;
-            background-image: url(/assets/backgr-img/cartNotibg.gif);
+            background-image: url(./assets/backgr-img/cartNotibg.gif);
             font-family: Roboto;
             box-sizing: border-box;
             display: none;
@@ -310,7 +310,7 @@
 #menu {
     width: 100%;
     height: 30px;
-    background-image: url(/assets/backgr-img/haederbg.png);
+    background-image: url(./assets/backgr-img/haederbg.png);
     display: flex;
     flex-direction: row-reverse; justify-content: space-between;
     align-items: center;
@@ -501,30 +501,30 @@
      .listsp {
         width: 100%;
         height: 500px;
-        background-image: url(/assets/backgr-img/newbg.gif);
+        background-image: url(./assets/backgr-img/newbg.gif);
         position: relative;;
     }
      .listsp#dochoimuahe {
-        background-image: url(/assets/backgr-img/summerbg.gif);
+        background-image: url(./assets/backgr-img/summerbg.gif);
     }
          .listsp#dochoirobot{
-            background-image: url(/assets/backgr-img/robotbg.gif);
+            background-image: url(./assets/backgr-img/robotbg.gif);
             margin-top: 30px;
         }
          .listsp#dochoixe{
-            background-image: url(/assets/backgr-img/xebg.gif);
+            background-image: url(./assets/backgr-img/xebg.gif);
             margin-top: 30px;
         }
          .listsp#dochoilaprap{
-            background-image: url(/assets/backgr-img/laprapbg.png);
+            background-image: url(./assets/backgr-img/laprapbg.png);
             margin-top: 30px;
         }
          .listsp#dochoimophong{
-            background-image: url(/assets/backgr-img/mophongbg.gif);
+            background-image: url(./assets/backgr-img/mophongbg.gif);
             margin-top: 30px;
         }
          .listsp#dochoimohinh{
-            background-image: url(/assets/backgr-img/mohinhbg.gif);
+            background-image: url(./assets/backgr-img/mohinhbg.gif);
             margin-top: 30px;
         }
      .listsp .titlesp {
