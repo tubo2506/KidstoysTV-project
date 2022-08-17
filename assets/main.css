@@ -12,7 +12,7 @@
     padding: 0;
     /* box-sizing: border-box; */
     font-family: Roboto;
-    background-image: url('./assets/backgr-img/bodybg.png');
+    background-image: url('/assets/backgr-img/bodybg.png');
     object-fit: contain;
 }
 
